@@ -3,20 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TY的网站</title>
+<title>黄礼志 · 我的偏爱</title>
 <style>
-body{margin:0;font-family:-apple-system,"PingFang SC",sans-serif;background:#f5f6f8;color:#222;display:flex;justify-content:center;padding:40px 18px}
-.card{background:#fff;max-width:420px;width:100%;padding:28px 22px;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.07)}
-h1{font-size:24px;margin:0 0 10px}
-p{line-height:1.8;color:#555;margin:0 0 18px}
-a{display:block;text-align:center;padding:12px;margin-top:10px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:10px;font-size:15px}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"PingFang SC",sans-serif;background:#f6f5f3;color:#1f1f1f;line-height:1.85}
+.hero{background:linear-gradient(160deg,#dfe7ff,#f6f5f3 70%);text-align:center;padding:36px 20px 26px}
+.hero img{width:160px;height:160px;object-fit:cover;border-radius:50%;box-shadow:0 12px 32px rgba(30,50,120,.18)}
+h1{font-size:27px;margin:18px 0 2px;letter-spacing:1px}
+.sub{color:#5b6b9a;font-size:13px;margin:0}
+.wrap{max-width:560px;margin:0 auto;padding:8px 20px 60px}
+h2{font-size:17px;margin:30px 0 10px;padding-left:10px;border-left:4px solid #4a6cf7}
+p{margin:0 0 14px;font-size:15px;color:#3a3a3a}
+.quote{background:#fff;border-radius:14px;padding:16px 18px;font-size:15px;color:#444;box-shadow:0 4px 16px rgba(0,0,0,.05);margin-bottom:14px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.gallery img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;display:block}
+.links a{display:block;text-align:center;padding:13px;margin:10px 0;background:#4a6cf7;color:#fff;text-decoration:none;border-radius:12px;font-size:15px;font-weight:500}
+.links a.ghost{background:#fff;color:#4a6cf7;border:1.5px solid #c9d4ff}
+footer{text-align:center;font-size:12px;color:#9b9b9b;padding:24px}
 </style>
 </head>
 <body>
-<div class="card">
-<h1>你好，我是TY</h1>
-<p>这是我的第一个网站，今天刚开始学。以后这里会放我的照片、日记和喜欢的东西。</p>
-<a href="mailto:你的邮箱2797800498@qq.com">给我发邮件</a>
+
+<div class="hero">
+  <img src="photo1.jpg" alt="黄礼志">
+  <h1>黄礼志</h1>
+  <p class="sub">ITZY 队长 · 主舞 · 喜欢她的第 1 年</p>
 </div>
+
+<div class="wrap">
+
+  <h2>为什么喜欢她</h2>
+  <p>第一眼是被她的脸吸引的。清冷又有攻击性的五官，舞台上抬眼的那一瞬间就记住她了。</p>
+  <p>然后是身材和舞蹈。她跳舞的时候线条干净利落，力度收放都刚刚好，看一遍就想再看一遍。</p>
+  <p>但真正让我留下来的原因是实力。她不是靠某一个瞬间出圈，是一场一场把舞台稳稳撑起来的类型。</p>
+
+  <h2>最喜欢的专辑：《AIR》</h2>
+  <div class="quote">
+    《AIR》是我反复听最多次的一张，从头到尾没有一首想跳过的。<br>
+    主打歌《Air》的前奏一出来，情绪就整段被拽进去了。
+  </div>
+
+  <h2>图集</h2>
+  <div class="gallery">
+    <img src="photo2.jpg" alt="黄礼志舞台">
+    <img src="photo3.jpg" alt="黄礼志">
+  </div>
+
+  <h2>想去看她的演唱会</h2>
+  <p>喜欢她一年，还没在现场看过一次，这件事一直在我待办清单的最上面。如果有同样想去的，可以给我写信，我们凑一起。</p>
+  <p style="font-size:14px;color:#666">联系邮箱：2797800498@qq.com</p>
+
+  <h2>去看她</h2>
+  <div class="links">
+    <a href="https://www.youtube.com/results?search_query=Yeji+AIR+MV">YouTube 搜《Air》MV</a>
+    <a class="ghost" href="https://search.bilibili.com/all?keyword=%E9%BB%84%E7%A4%BC%E5%BF%97">B 站看黄礼志</a>
+    <a class="ghost" href="mailto:2797800498@qq.com">约我一起去看演唱会</a>
+  </div>
+</div>
+
+<footer>Made with ❤️ on iPhone · 仅个人喜爱，图片版权归原作者</footer>
 </body>
 </html>
