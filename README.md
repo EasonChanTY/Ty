@@ -1,2 +1,2 @@
-# Ty
+# TY
 ready go
